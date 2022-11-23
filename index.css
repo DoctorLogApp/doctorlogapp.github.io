@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 49, 83);
+    position: relative;
+}
+#icon{
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    filter: drop-shadow(0 0 10px #000000);
+}
+#coming-soon{
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+}
+#links{
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+}
+a:any-link {
+    color: white;
+    text-decoration-line: none;
+    position: relative;
+}
+#links > a:first-child {
+    padding-right: 1em;
+}
+.text-container{
+    background-color: rgb(24, 49, 83);
+    padding: 5% 10%;
+}
+.text-container .logo {
+    width: 7em;
+    height: 7em;
+    filter: drop-shadow(0 0 10px #000000);
+}
